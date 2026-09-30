@@ -1,95 +1,37 @@
-{
-  "transactions": [
+[
     {
-      "id": "tx_001",
-      "amount": 10000.0,
-      "category": "Allowance",
-      "type": "INCOME",
-      "date": "2026-09-01",
-      "note": "Monthly pocket money from parents"
+        "id": 1,
+        "amount": 750.0,
+        "category": "Books",
+        "date": "2026-09-05",
+        "note": "Python Programming Reference Book"
     },
     {
-      "id": "tx_002",
-      "amount": 750.0,
-      "category": "Academics",
-      "type": "EXPENSE",
-      "date": "2026-09-05",
-      "note": "Python Programming Reference Book & Lab Notebook"
+        "id": 2,
+        "amount": 340.0,
+        "category": "Food",
+        "date": "2026-09-10",
+        "note": "Campus Canteen Dinner"
     },
     {
-      "id": "tx_003",
-      "amount": 340.0,
-      "category": "Food",
-      "type": "EXPENSE",
-      "date": "2026-09-10",
-      "note": "Campus Canteen Dinner with roommates"
+        "id": 3,
+        "amount": 500.0,
+        "category": "Travel",
+        "date": "2026-09-12",
+        "note": "Metro smart card recharge"
     },
     {
-      "id": "tx_004",
-      "amount": 500.0,
-      "category": "Travel",
-      "type": "EXPENSE",
-      "date": "2026-09-12",
-      "note": "Metro smart card monthly recharge"
+        "id": 4,
+        "amount": 2500.0,
+        "category": "Mess",
+        "date": "2026-09-18",
+        "note": "Hostel special mess coupons"
     },
     {
-      "id": "tx_005",
-      "amount": 2500.0,
-      "category": "Food",
-      "type": "EXPENSE",
-      "date": "2026-09-18",
-      "note": "Hostel special dinner mess coupons"
-    },
-    {
-      "id": "tx_006",
-      "amount": 450.0,
-      "category": "Entertainment",
-      "type": "EXPENSE",
-      "date": "2026-09-22",
-      "note": "Weekend movie ticket"
-    },
-    {
-      "id": "tx_007",
-      "amount": 650.0,
-      "category": "Food",
-      "type": "EXPENSE",
-      "date": "2026-09-25",
-      "note": "Snacks and grocery supplies"
-    },
-    {
-      "id": "tx_008",
-      "amount": 350.0,
-      "category": "Travel",
-      "type": "EXPENSE",
-      "date": "2026-09-28",
-      "note": "Auto-rickshaw fare to railway station"
+        "id": 5,
+        "amount": 450.0,
+        "category": "Entertainment",
+        "date": "2026-09-22",
+        "note": "Movie ticket"
     }
-  ],
-  "budgets": {
-    "Food": {
-      "category": "Food",
-      "monthly_limit": 1.0,
-      "month": 9,
-      "year": 2026
-    },
-    "Academics": {
-      "category": "Academics",
-      "monthly_limit": 1500.0,
-      "month": 9,
-      "year": 2026
-    },
-    "Travel": {
-      "category": "Travel",
-      "monthly_limit": 800.0,
-      "month": 9,
-      "year": 2026
-    },
-    "Entertainment": {
-      "category": "Entertainment",
-      "monthly_limit": 1000.0,
-      "month": 9,
-      "year": 2026
-    }
-  },
-  "last_updated": "2026-09-30T06:06:18.231580"
-}
+]
