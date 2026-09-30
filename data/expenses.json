@@ -1,0 +1,95 @@
+{
+  "transactions": [
+    {
+      "id": "tx_001",
+      "amount": 10000.0,
+      "category": "Allowance",
+      "type": "INCOME",
+      "date": "2026-09-01",
+      "note": "Monthly pocket money from parents"
+    },
+    {
+      "id": "tx_002",
+      "amount": 750.0,
+      "category": "Academics",
+      "type": "EXPENSE",
+      "date": "2026-09-05",
+      "note": "Python Programming Reference Book & Lab Notebook"
+    },
+    {
+      "id": "tx_003",
+      "amount": 340.0,
+      "category": "Food",
+      "type": "EXPENSE",
+      "date": "2026-09-10",
+      "note": "Campus Canteen Dinner with roommates"
+    },
+    {
+      "id": "tx_004",
+      "amount": 500.0,
+      "category": "Travel",
+      "type": "EXPENSE",
+      "date": "2026-09-12",
+      "note": "Metro smart card monthly recharge"
+    },
+    {
+      "id": "tx_005",
+      "amount": 2500.0,
+      "category": "Food",
+      "type": "EXPENSE",
+      "date": "2026-09-18",
+      "note": "Hostel special dinner mess coupons"
+    },
+    {
+      "id": "tx_006",
+      "amount": 450.0,
+      "category": "Entertainment",
+      "type": "EXPENSE",
+      "date": "2026-09-22",
+      "note": "Weekend movie ticket"
+    },
+    {
+      "id": "tx_007",
+      "amount": 650.0,
+      "category": "Food",
+      "type": "EXPENSE",
+      "date": "2026-09-25",
+      "note": "Snacks and grocery supplies"
+    },
+    {
+      "id": "tx_008",
+      "amount": 350.0,
+      "category": "Travel",
+      "type": "EXPENSE",
+      "date": "2026-09-28",
+      "note": "Auto-rickshaw fare to railway station"
+    }
+  ],
+  "budgets": {
+    "Food": {
+      "category": "Food",
+      "monthly_limit": 4000.0,
+      "month": 9,
+      "year": 2026
+    },
+    "Academics": {
+      "category": "Academics",
+      "monthly_limit": 1500.0,
+      "month": 9,
+      "year": 2026
+    },
+    "Travel": {
+      "category": "Travel",
+      "monthly_limit": 800.0,
+      "month": 9,
+      "year": 2026
+    },
+    "Entertainment": {
+      "category": "Entertainment",
+      "monthly_limit": 1000.0,
+      "month": 9,
+      "year": 2026
+    }
+  },
+  "last_updated": "2026-09-30T18:30:00"
+}

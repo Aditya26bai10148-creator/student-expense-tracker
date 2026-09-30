@@ -1,0 +1,9 @@
+ID,Date,Type,Category,Amount (INR),Note
+tx_001,2026-09-01,INCOME,Allowance,10000.00,Monthly pocket money from parents
+tx_002,2026-09-05,EXPENSE,Academics,750.00,Python Programming Reference Book & Lab Notebook
+tx_003,2026-09-10,EXPENSE,Food,340.00,Campus Canteen Dinner with roommates
+tx_004,2026-09-12,EXPENSE,Travel,500.00,Metro smart card monthly recharge
+tx_005,2026-09-18,EXPENSE,Food,2500.00,Hostel special dinner mess coupons
+tx_006,2026-09-22,EXPENSE,Entertainment,450.00,Weekend movie ticket
+tx_007,2026-09-25,EXPENSE,Food,650.00,Snacks and grocery supplies
+tx_008,2026-09-28,EXPENSE,Travel,350.00,Auto-rickshaw fare to railway station
