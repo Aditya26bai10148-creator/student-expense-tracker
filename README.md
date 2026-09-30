@@ -1,21 +1,26 @@
 # Student Expense Tracker
 
-A simple, lightweight Python CLI application to help students log daily expenses, monitor category spending, and track monthly budgets.
+A simple, offline command-line tool written in Python to help students keep track of daily pocket money, canteen expenses, and monthly budget limits.
 
 ---
 
-## Features
-- **Add Expenses**: Log date, category, amount, and an optional note.
-- **View All Expenses**: See a clean table of all past expenses and the total sum.
-- **Category Summary**: See how much money was spent on Food, Books, Travel, etc.
-- **Monthly Budget Check**: Set a monthly budget and get alerts if spending crosses 80% or exceeds 100%.
-- **Automatic Storage**: All records are saved to `data/expenses.json` automatically.
+## Why I Built This
+During college, it's very easy to spend small amounts every day—canteen snacks, tea, photocopies, travel—without realizing how quickly it all adds up. By the middle of the month, pocket money is usually gone. I built this lightweight CLI tool so I could quickly record my daily expenses in a couple of seconds right from my laptop, without dealing with slow apps, ads, or sign-ups.
 
 ---
 
-## Technologies Used
+## What It Can Do
+- **Log Daily Expenses**: Save expense amounts, category names, dates, and quick notes.
+- **View All Records**: Print a neat table showing all transactions and the total amount spent so far.
+- **Category Summary**: Check how much money went into Food, Books, Travel, Mess, or Entertainment.
+- **Budget Warnings**: Set your monthly allowance limit and get notified when you cross 80% or exceed your budget.
+- **Auto-Save**: Everything gets saved into a local `data/expenses.json` file automatically.
+
+---
+
+## Tech Stack
 - **Language**: Python 3.10+
-- **Modules**: Standard library only (`json`, `os`, `sys`, `unittest`) — no external packages required!
+- **Libraries**: Built using only standard Python modules (`json`, `os`, `sys`, `unittest`). No external `pip` packages needed.
 
 ---
 
@@ -23,47 +28,32 @@ A simple, lightweight Python CLI application to help students log daily expenses
 ```text
 student-expense-tracker/
 ├── data/
-│   └── expenses.json       # Saved expenses data
+│   └── expenses.json       # JSON file where expenses are saved
 ├── src/
 │   ├── __init__.py
 │   ├── models.py           # Expense class definition
-│   ├── tracker.py          # Calculation and tracking logic
-│   ├── storage.py          # JSON save and load functions
-│   └── main.py             # Interactive menu CLI
+│   ├── tracker.py          # Logic for adding expenses and checking budget
+│   ├── storage.py          # Functions to save and load data from JSON
+│   └── main.py             # Terminal menu and user interaction loop
 ├── tests/
 │   ├── __init__.py
 │   └── test_tracker.py     # Unit test cases
-├── README.md               # Project documentation
-├── statement.md            # Problem statement and scope
-└── PROJECT_REPORT.md       # Project report for submission
+├── README.md
+├── statement.md
+└── PROJECT_REPORT.md
 ```
 
 ---
 
-## How to Run
+## How to Run the App
 
-1. Clone or download this repository.
-2. Open terminal in the project folder.
-3. Run the application:
+1. Open your terminal in this folder.
+2. Run the main script:
 ```bash
 python3 src/main.py
 ```
 
----
-
-## How to Run Tests
-
-To verify that the tracking and budget logic work as expected:
-```bash
-python3 -m unittest discover -s tests -v
-```
-
-All 5 unit tests should pass with `OK`.
-
----
-
-## Sample Preview
-
+### Sample Terminal Output
 ```text
 =============================================
       STUDENT EXPENSE TRACKER
@@ -87,7 +77,18 @@ Enter choice (1-6): 4
 
 ---
 
+## Running the Unit Tests
+
+To run the unit tests:
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+All 5 tests will run and display `OK`.
+
+---
+
 ## Author
-- **Name**: Aditya Vardhan
+- **Student**: Aditya Vardhan
 - **Course**: Introduction to Programming in Python
-- **Institution**: Vellore Institute of Technology (VIT)
+- **College**: Vellore Institute of Technology (VIT)
