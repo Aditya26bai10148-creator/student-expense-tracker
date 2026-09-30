@@ -68,7 +68,7 @@
   "budgets": {
     "Food": {
       "category": "Food",
-      "monthly_limit": 4000.0,
+      "monthly_limit": 1.0,
       "month": 9,
       "year": 2026
     },
@@ -91,5 +91,5 @@
       "year": 2026
     }
   },
-  "last_updated": "2026-09-30T18:30:00"
+  "last_updated": "2026-09-30T06:06:18.231580"
 }
