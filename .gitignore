@@ -34,3 +34,8 @@ ENV/
 .DS_Store
 *.tmp
 *corrupt_backup*
+
+# IDE & Editor files
+.vscode/
+*.code-workspace
+.idea/
